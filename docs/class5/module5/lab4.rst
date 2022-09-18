@@ -53,7 +53,6 @@ This ends the lab.
 
 
 
-
 .. |add_HTTP| image:: ../images/m-add-http.png
 .. |http_name| image:: ../images/m-http-name.png
 .. |http_basic| image:: ../images/m-http-basic.png
