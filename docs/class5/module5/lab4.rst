@@ -49,6 +49,6 @@ In the example below it is *flying-ox.lab-app.f5demos.com*
 
 Success will render a page like the following:
 
-   .. image:: ../images/websrv_output.png
-      :width: 800px
+.. image:: ../images/websrv_output.png
+   :width: 800px
 
