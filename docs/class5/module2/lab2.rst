@@ -1,5 +1,5 @@
 Lab 2 - Scale vK8s Deployment
------------------------------
+=============================
 
 In this lab, we will learn the following:
 
@@ -7,7 +7,8 @@ In this lab, we will learn the following:
 
 •  Modify Virtual K8s Deployment to Scale Replicas
 
-**Core concepts**
+Core concepts
+------------
 
    *Pods in vK8s*
       `The core concept in application management on Kubernetes is a Pod. Pod is the basic and smallest execution unit that can be created, deployed, and managed in Kubernetes. A Pod consumes compute, memory, and storage resources and needs a network identity. A Pod contains single or multiple containers but it is a single instance of an application in Kubernetes.`
@@ -17,7 +18,8 @@ In this lab, we will learn the following:
 
    For more core concepts, please review `F5 Distributed Cloud documentation <https://docs.cloud.f5.com/docs/ves-concepts/dist-app-mgmt>`_
 
-**Exercise 1 - Access Virtual K8s Cluster Dashboard and Edit Deployment**
+Virtual K8s Cluster Dashboard
+-----------------------------
 
 #. Select ``Applications`` > ``Virtual K8s`` > ``Dashboard``. You should see one pod per site.
 
@@ -34,7 +36,8 @@ In this lab, we will learn the following:
    .. image:: ../images/15modify_deployment_spec.png
       :width: 600pt
 
-**Exercise 2 - Review Scaled vK8s Deployment**
+Review Scaled vK8s Deployment
+-----------------------------
 
 #. It may take a few moments, but on the vK8s cluster dashboard, number of **Running Pods** should increase to 9. Upon refreshing the list, you may notice the number of **Sites with Error** gradually decrease as **Running Pods** increases.
 

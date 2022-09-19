@@ -1,8 +1,6 @@
 Lab 2 - Publish to the Internet
 ===============================
 
-**Exercise 1: Create HTTP Load Balancer**
-
 #. Navigate the left-side menu to ``Manage`` > ``Load Balancers`` > ``HTTP Load Balancers``, then click **Add HTTP Load Balancer**.
 
    |add_HTTP|
@@ -49,7 +47,6 @@ Success will render a page like the following:
 Please note the country name. 
 
 Refresh your browser a few times and notice what happens to the country name. 
-
 
 .. |add_HTTP| image:: ../images/m-add-http.png
 .. |http_name| image:: ../images/m-http-name.png
