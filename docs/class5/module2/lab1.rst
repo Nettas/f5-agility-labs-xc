@@ -1,8 +1,6 @@
 Lab 1 - Review vK8s Cluster and Deploy vK8s Workload
 ----------------------------------------------------
 
-.. F5 Distributed Cloud App Stack is a SaaS-based offering to deploy, secure, and operate a fleet of applications across the distributed infrastructure in multi-cloud or edge. It can scale to a large number of clusters and locations with centralized orchestration, observability, and operations to reduce the complexity of managing a fleet of distributed clusters.
-
 In this lab, we will learn the following:
 
 •  Review the previously-created Virtual K8s cluster
@@ -33,19 +31,19 @@ In this lab, we will learn the following:
    .. image:: ../images/1access_distributed_apps_service_menu.png
       :width: 600pt
 
-#. Select **Applications -> Virtual K8s**, then your Virtual K8s cluster from the list
+#. Select ``Applications`` > ``Virtual K8s``, and select the cluster from the list
 
    .. image:: ../images/2access_applications_vk8s.png
       :width: 600pt
 
-#. Review **Sites** on the vK8s dashboard -- there should be three, each with one pod
+#. Select ``Dashboard`` on the vK8s dashboard -- there should be three, each with one pod
 
    .. image:: ../images/3review_vk8s_dashboard_sites.png
       :width: 600pt
 
 **Exercise 2 - Configure vK8s Workload Container**
 
-#. Select **Workloads** -> **Add vK8s workload**
+#. Select ``Workloads`` -> **Add vK8s workload**
 
    .. image:: ../images/4add_vk8s_workload.png
       :width: 600pt
@@ -62,9 +60,9 @@ In this lab, we will learn the following:
 
 #. Complete the **Container Configuration** section by providing a **Name** and details for which **Image to Use**
 
-    - **Image Name**: coleman.azurecr.io/f5xcdemoapp
-    - **Container Registry**: Private Registry
-    - **Private Registry**: shared/azure-registry
+   - **Image Name**: coleman.azurecr.io/f5xcdemoapp
+   - **Container Registry**: Private Registry
+   - **Private Registry**: shared/azure-registry
 
    .. image:: ../images/7container_config.png
       :width: 600pt
@@ -90,8 +88,8 @@ In this lab, we will learn the following:
 
 #. Within the **Select Port to Advertise** section, set **Select Port to Advertise** to *Port*
 
-      - **Port**: 3000
-      - **Application Protocol**: HTTP
+   - **Port**: 3000
+   - **Application Protocol**: HTTP
 
    .. image:: ../images/11set_advertise_port.png
       :width: 600pt
