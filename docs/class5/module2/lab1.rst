@@ -36,7 +36,7 @@ In this lab, we will learn the following:
    .. image:: ../images/2access_applications_vk8s.png
       :width: 600pt
 
-#. Select ``Dashboard`` on the vK8s dashboard -- there should be three, each with one pod
+#. Select ``Dashboard`` on the vK8s dashboard.
 
    .. image:: ../images/3review_vk8s_dashboard_sites.png
       :width: 600pt
