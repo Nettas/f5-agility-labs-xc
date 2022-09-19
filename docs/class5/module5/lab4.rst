@@ -1,4 +1,4 @@
-Lab 2 - Publish to the Internet
+Lab 4 - Publish to the Internet
 ===============================
 
 #. Navigate the left-side menu to ``Manage`` > ``Load Balancers`` -> ``HTTP Load Balancers``, then click **Add HTTP Load Balancer**.
