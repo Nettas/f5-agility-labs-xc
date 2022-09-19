@@ -1,13 +1,10 @@
 Lab 2 - Create a Virtual Kubernetes Cluster
--------------------------------------------
+===========================================
 
-In this lab, we will learn the following:
+In this lab, we will create a Virtual Kubernetes Cluster (Virtual K8s) and deploy a demo app
 
-•  Access the **Distributed Apps** service in the F5 Distributed Cloud console
-
-•  Create a Virtual Kubernetes Cluster (Virtual K8s) to run a demo app
-
-**Core concepts**
+Core concepts
+-------------
 
    *Virtual K8s (vK8s)*
       `vk8s refers to a virtual Kubernetes cluster. F5 Distributed Cloud Services support a Kubernetes compatible API for centralized orchestration of applications across a fleet of sites 
@@ -22,7 +19,8 @@ In this lab, we will learn the following:
 
    For more core concepts, please review `F5 Distributed Cloud documentation <https://docs.cloud.f5.com/docs/ves-concepts>`_
 
-**Exercise 1 - Explore sites and virtual site**
+Explore sites and virtual site
+------------------------------
 
 #. Select the **Distributed Apps** tile on the F5 Distributed Cloud Services home page.
 
@@ -33,7 +31,6 @@ In this lab, we will learn the following:
 
    .. image:: ../images/distributedappclickvirtualsite.png
       :width: 250pt
-
 
 #. Locate the Virtual Site named *agility-k8s-vsite*.
 
@@ -63,7 +60,8 @@ In this lab, we will learn the following:
    .. image:: ../images/distributedappclickvpcsiteoneexploresite2.png
       :width: 400pt
 
-**Exercise 2 - Create a Virtual K8s**
+Create a Virtual K8s
+--------------------
 
 #. Click **Virtual K8s** under the **Applications** section.
 
@@ -82,7 +80,6 @@ In this lab, we will learn the following:
 
    .. image:: ../images/distributedappclickvirtualk8ssettings2.png
       :width: 250pt
-
 
 #. Wait for your virtual K8s current state to show as *Ready* (this can take 5 minutes or more). This is your virtual Kubernetes cluster assigned to the virtual site *agility-k8s-vsite*. 
    As you already know, virtual site *agility-k8s-vsite* has three sites (*agility-vpc-site-one*, *agility-vpc-site-two*, *agility-vpc-site-three*)  

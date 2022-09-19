@@ -1,15 +1,11 @@
 Lab 2 - Deploy a Web Server to the Managed K8s Cluster
-------------------------------------------------------
-
-.. F5 Distributed Cloud App Stack is a K8s Edge SaaS managed offering to deploy, secure, and operate applications across cloud and edge infrastructure.
+======================================================
 
 In this lab, we will learn the following:
 
 •  Deploy a Managed K8s workload utilizing a containerized app from a public registry
 
 •  Deploy to the Managed K8s site
-
-**Exercise 1 - Deploy Web Server on Managed K8s Site**
 
 #. Goto the following repo and either clone or copy and paste the deployment manifest from the below link into a directory on your local machine. 
 

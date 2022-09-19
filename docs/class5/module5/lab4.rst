@@ -1,9 +1,7 @@
 Lab 2 - Publish to the Internet
 ===============================
 
-**Exercise 1: Create HTTP Load Balancer**
-
-#. Navigate the left-side menu to **Manage -> Load Balancers -> HTTP Load Balancers**, then click **Add HTTP Load Balancer**.
+#. Navigate the left-side menu to ``Manage`` > ``Load Balancers`` -> ``HTTP Load Balancers``, then click **Add HTTP Load Balancer**.
 
     |add_HTTP|
    
@@ -35,7 +33,7 @@ Lab 2 - Publish to the Internet
 
     |http_status|
 
-.. NOTE::
+.. note::
   - Please wait for the VIRTUAL_HOST_READY and Valid certificate status before proceeding
 
 Now we are ready to test!
@@ -48,9 +46,6 @@ Success will render a page like the following:
 
    .. image:: ../images/websrv_output.png
       :width: 600pt
-
-This ends the lab.
-
 
 
 .. |add_HTTP| image:: ../images/m-add-http.png

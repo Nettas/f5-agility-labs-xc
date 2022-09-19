@@ -1,8 +1,6 @@
 Lab 1 - Create Origin Pool
 ==========================
 
-**Exercise 1: Create Origin Pool**
-
 #. Navigate the left-side menu to ``Manage`` > ``Load Balancers``, then click ``Origin Pools``.
 
    |origin_pool|
@@ -31,7 +29,6 @@ Lab 1 - Create Origin Pool
 #. Click on **Add Item** to return to the previous screen
 
 #. Click the **Save and Exit** button to close the **Origin Pool** dialogue.
-
 
 .. |origin_pools_menu| image:: ../images/m3-add-origin-server.png
 .. |origin_pool| image:: ../images/m-origin-pool.png

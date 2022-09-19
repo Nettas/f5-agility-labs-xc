@@ -7,7 +7,8 @@ In this lab, we will learn perform the following:
 
 •  Review kubectl commands and see the output
 
-**Core concepts**
+Core concepts
+-------------
 
    *Virtual kubernetes vK8s*
       `F5 Distributed Cloud Services support a Kubernetes compatible API for centralized orchestration of applications across a fleet of sites (customer sites or F5 Distributed Cloud Regional Edge). This API is “Kubernetes compatible” because not all Kubernetes APIs or resources are supported. However, for the API(s) that are supported, it is hundred percent compatible. We have implemented a distributed control plane within our global infrastructure to manage scheduling and scaling of applications across multiple (tens to hundreds of thousands of) sites, where each site in itself is also a managed physical K8s cluster.`
