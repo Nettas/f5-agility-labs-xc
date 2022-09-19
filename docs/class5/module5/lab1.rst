@@ -7,7 +7,6 @@ In this lab, we will learn the following:
 
 **Exercise 1 - Log into F5 Distributed Cloud Console**
 
-
 #. Click the Cloud and Edge Sites tile on the F5 Distributed Cloud Services home page.
 
    .. image:: ../images/xchomepage.png
