@@ -1,8 +1,6 @@
 Lab 2 - Create a Virtual Kubernetes Cluster
 -------------------------------------------
 
-F5 Distributed Cloud App Stack is a SaaS-based offering to deploy, secure, and operate a fleet of applications across the distributed infrastructure in multi-cloud or edge environments. It can scale to a large number of clusters and locations with centralized orchestration, observability, and operations to reduce the complexity of managing a fleet of distributed clusters.
-
 In this lab, we will learn the following:
 
 •  Access the **Distributed Apps** service in the F5 Distributed Cloud console
