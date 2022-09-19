@@ -25,7 +25,7 @@ Explore sites and virtual site
 #. Select the **Distributed Apps** tile on the F5 Distributed Cloud Services home page.
 
    .. image:: ../images/distributedappclick.png
-      :width: 400pt
+      :width: 800px
 
 #. Within the Distributed Apps side menu and under **Applications**, click on **Virtual Sites**.
 
@@ -45,20 +45,20 @@ Explore sites and virtual site
    replicated across all three sites. Select **agility-vpc-site-one**
 
    .. image:: ../images/distributedappclickvpcsiteone.png
-      :width: 400pt
+      :width: 800px
 
 #. You can see a summary of stats and configurations for site *agility-vpc-site-one*. Notice the labels used to deploy the site. Can you guess where 
    this customer edge site is deployed? We can see by the labels that this site is deployed on the Google Cloud Platform (GCP). You can deploy a 
    customer edge site on ANY major cloud provider and also on-prem. Click on **Explore Site** to see more details about *agility-vpc-site-one*
 
    .. image:: ../images/distributedappclickvpcsiteoneexploresite.png
-      :width: 400pt
+      :width: 800px
 
 #. You can get a lot of helpful information for site *agility-vpc-site-one* and its workloads, including application metrics, number of Pods, 
    deployment status, etc. Spend some time exploring the different taps. Of course, there is no information because we have not deployed any workload on this site.
 
    .. image:: ../images/distributedappclickvpcsiteoneexploresite2.png
-      :width: 400pt
+      :width: 800px
 
 Create a Virtual K8s
 --------------------
@@ -76,7 +76,7 @@ Create a Virtual K8s
 #. Enter the site **Name** using your Firstname initial and Lastname altogether and append "-vk8" at the end. Ex: For Andrew Smith, the site name will be *asmith-vk8* (Without the quotes!)
 
    .. image:: ../images/distributedappclickvirtualk8ssettings.png
-      :width: 400pt
+      :width: 800px
 
    .. image:: ../images/distributedappclickvirtualk8ssettings2.png
       :width: 250pt
@@ -85,4 +85,4 @@ Create a Virtual K8s
    As you already know, virtual site *agility-k8s-vsite* has three sites (*agility-vpc-site-one*, *agility-vpc-site-two*, *agility-vpc-site-three*)  
 
    .. image:: ../images/distributedappclickvirtualk8sstatus.png
-      :width: 400pt
+      :width: 800px
