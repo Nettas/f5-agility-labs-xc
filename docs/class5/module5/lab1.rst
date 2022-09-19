@@ -1,5 +1,5 @@
 Lab 1- Working with Managed K8s (Optional)
--------------------------------------------------------------------------
+------------------------------------------
 
 In this lab, we will learn the following:
 
@@ -73,6 +73,6 @@ In this lab, we will learn the following:
    
       `kubectl get svc -A`
 
-   *View all resources *
+   *View all resources*
       `kubectl get all -A`
    
