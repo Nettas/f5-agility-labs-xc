@@ -1,12 +1,11 @@
 Lab 1- Working with Managed K8s (Optional)
--------------------------------------------------------------------------
+------------------------------------------
 
 In this lab, we will learn the following:
 
 •  How to view and work with Managed K8s in the Console and global kubeconfig file to access and deploy publish a web server across the ADN to the Internet.
 
 **Exercise 1 - Log into F5 Distributed Cloud Console**
-
 
 #. Click the Cloud and Edge Sites tile on the F5 Distributed Cloud Services home page.
 
@@ -73,6 +72,6 @@ In this lab, we will learn the following:
    
       `kubectl get svc -A`
 
-   *View all resources *
+   *View all resources*
       `kubectl get all -A`
    
