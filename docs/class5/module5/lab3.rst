@@ -1,4 +1,4 @@
-Lab 1 - Create Origin Pool
+Lab 3 - Create Origin Pool
 ==========================
 
 **Exercise 1: Create Origin Pool**

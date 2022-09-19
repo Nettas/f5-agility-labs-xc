@@ -1,4 +1,4 @@
-Lab 1 - Publish to the Internet
+Lab 4 - Publish to the Internet
 ===============================
 
 **Exercise 1: Create HTTP Load Balancer**
