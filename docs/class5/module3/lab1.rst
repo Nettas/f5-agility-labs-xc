@@ -3,7 +3,7 @@ Lab 1 - Create Origin Pool
 
 **Exercise 1: Create Origin Pool**
 
-#. Navigate the left-side menu to **Manage -> Load Balancers**, then click **Origin Pools**.
+#. Navigate the left-side menu to ``Manage`` > ``Load Balancers``, then click ``Origin Pools``.
 
    |origin_pool|
    
@@ -13,9 +13,9 @@ Lab 1 - Create Origin Pool
 
 #. On the New Origin Pool form:
 
-	#. Enter a **Name** for your pool
-	#. Replace the **Port** value of *443* with *3000*
-	#. Select **Add Item** under **Origin Servers**
+   #. Enter a **Name** for your pool
+   #. Replace the **Port** value of *443* with *3000*
+   #. Select **Add Item** under **Origin Servers**
 
    |origin_pool_name|
 
@@ -31,7 +31,6 @@ Lab 1 - Create Origin Pool
 #. Click on **Add Item** to return to the previous screen
 
 #. Click the **Save and Exit** button to close the **Origin Pool** dialogue.
-
 
 
 .. |origin_pools_menu| image:: ../images/m3-add-origin-server.png
