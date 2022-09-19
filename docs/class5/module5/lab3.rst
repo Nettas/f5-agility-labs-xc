@@ -36,9 +36,3 @@ Lab 3 - Create Origin Pool
 
 #. Click the **Save and Exit** button to close the **Origin Pool** dialogue.
 
-
-
-.. |origin_pool| image:: ../images/m-origin-pool.png
-.. |origin_pool_add| image:: ../images/origin-pool.png
-.. |origin_pool_name| image:: ../images/m-origin-pool-name.png
-.. |origin_pools_menu| image:: ../images/m3-add-origin-server.png
