@@ -1,8 +1,6 @@
 Lab 2 - Scale vK8s Deployment
 -----------------------------
 
-F5 Distributed Cloud App Stack is a SaaS-based offering to deploy, secure, and operate a fleet of applications across the distributed infrastructure in multi-cloud or edge. It can scale to a large number of clusters and locations with centralized orchestration, observability, and operations to reduce the complexity of managing a fleet of distributed clusters.
-
 In this lab, we will learn the following:
 
 •  Review the Virtual K8s Cluster Dashboard
@@ -21,12 +19,12 @@ In this lab, we will learn the following:
 
 **Exercise 1 - Access Virtual K8s Cluster Dashboard and Edit Deployment**
 
-#. Select **Applications -> Virtual K8s -> Dashboard**. You should see one pod per site.
+#. Select ``Applications`` > ``Virtual K8s`` > ``Dashboard``. You should see one pod per site.
 
    .. image:: ../images/13validate_vK8s_dashboard.png
       :width: 600pt
 
-#. Select **Deployments**, then select the menu under **Actions** for your deployment, then **Edit**
+#. Select ``Deployments``, then select the menu under **Actions** for your deployment, then ``Edit``
 
    .. image:: ../images/14edit_deployment.png
       :width: 600pt
@@ -43,4 +41,3 @@ In this lab, we will learn the following:
    .. image:: ../images/16review_scaled_deployment.png
       :width: 600pt
 
-This concludes Module 2: Deploy and Scale Virtual K8s Workload. Thank you for taking the time to complete these exercises! Please continue on to module 3 for a look at how to publish your application for users to consume.
