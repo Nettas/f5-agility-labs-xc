@@ -37,7 +37,7 @@ In this lab, we will learn the following:
 
 #. Locate the Virtual Site named *agility-k8s-vsite*.
 
-    .. NOTE::
+   .. note::
       For this lab, we have provisioned a Virtual Site called *agility-k8s-vsite* to save time 
 
    .. image:: ../images/distributedappclickagilityk8svsite.png
