@@ -24,7 +24,7 @@ Lab 1 - Create Origin Pool
     - **Site or Virtual Site**: Virtual Site select shared/agility-k82-site
     - **Select Network on the site**: vK8s Networks on Site
 
-   .. image:: ../images/m3-add-origin-server.png`
+   .. image:: ../images/m3-add-origin-server.png
  
 #. Click on **Add Item** to return to the previous screen
 
