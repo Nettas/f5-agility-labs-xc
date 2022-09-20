@@ -25,12 +25,12 @@ Core concepts
 Review Virtual K8s Site
 -----------------------
 
-#. Access **Distributed Apps** on the F5XC Console
+#. Access ``Distributed Apps`` in the console.
 
    .. image:: ../images/1access_distributed_apps_service_menu.png
       :width: 800px
 
-#. Select ``Applications`` > ``Virtual K8s``, and select the cluster from the list
+#. Select ``Applications`` > ``Virtual K8s``, and select the cluster from the list.
 
    .. image:: ../images/2access_applications_vk8s.png
       :width: 800px
@@ -43,7 +43,7 @@ Review Virtual K8s Site
 Configure vK8s Workload Container
 ---------------------------------
 
-#. Select ``Workloads`` -> **Add vK8s workload**
+#. Select ``Workloads`` > **Add vK8s workload**
 
    .. image:: ../images/4add_vk8s_workload.png
       :width: 800px
@@ -53,12 +53,12 @@ Configure vK8s Workload Container
    .. image:: ../images/5workload_metadata_and_service.png
       :width: 800px
 
-#. Select **Add Item** within the **Containers** section
+#. Select |add-item| within the **Containers** section.
 
    .. image:: ../images/6add_container.png
       :width: 800px
 
-#. Complete the **Container Configuration** section by providing a **Name** and details for which **Image to Use**
+#. Complete the **Container Configuration** section by providing a **Name** and details for which **Image to Use**.
 
    - **Image Name**: coleman.azurecr.io/f5xcdemoapp
    - **Container Registry**: Private Registry
@@ -70,12 +70,12 @@ Configure vK8s Workload Container
 Configure vK8s Workload Deployment Options
 ------------------------------------------
 
-#. Within the **Deploy Options** section, set **Where to Deploy the Workload** to *Customer Virtual Sites*, then **Configure** within the **Customer Virtual Sites** section
+#. Within the **Deploy Options** section, set **Where to Deploy the Workload** to *Customer Virtual Sites*, then **Configure** within the **Customer Virtual Sites** section.
 
    .. image:: ../images/8deploy_options.png
       :width: 800px
 
-#. Select your vK8s site name from **List of Virtual Sites to Deploy**, then **Apply**
+#. Select your vK8s site name from **List of Virtual Sites to Deploy**, then |apply|
 
    .. image:: ../images/9select_customer_site.png
       :width: 800px
@@ -83,12 +83,12 @@ Configure vK8s Workload Deployment Options
 Configure vK8s Workload Advertisement Options
 ---------------------------------------------
 
-#. Within the **Advertise Options** section, set **Options to Advertise the Workload** to *Advertise in Cluster*, then select **Configure** within the **Advertise in Cluster** section
+#. Within the **Advertise Options** section, set **Options to Advertise the Workload** to *Advertise in Cluster*, then select **Configure** within the **Advertise in Cluster** section.
 
    .. image:: ../images/10select_advertise_options.png
       :width: 800px
 
-#. Within the **Select Port to Advertise** section, set **Select Port to Advertise** to *Port*
+#. Within the **Select Port to Advertise** section, set **Select Port to Advertise** to *Port*, click |apply| and then |save-and-exit|
 
    - **Port**: 3000
    - **Application Protocol**: HTTP
@@ -96,9 +96,16 @@ Configure vK8s Workload Advertisement Options
    .. image:: ../images/11set_advertise_port.png
       :width: 800px
 
-#. Select **Apply**, then **Apply** again, then **Save and Exit** from the vK8s Workload configuration page
-
-#. You should now see the workload added with 3 total sites and 3 total pods
+#. The workload has been added with 3 sites and 3 pods.
 
    .. image:: ../images/12verify_3_workload_sites_pods.png
       :width: 800px
+
+.. |add-item| image:: images/add-item.png
+   :height: 24px
+
+.. |apply| image:: images/apply.png
+   :height: 24px
+
+.. |save-and-exit| image:: images/save-and-exit.png
+   :height: 24px
