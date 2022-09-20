@@ -55,26 +55,37 @@ Viewing the K8s Cluster in UI and CLI
 CLI Commands to view Managed K8s Outputs
 ----------------------------------------
 
-   *Commands*
-      `Run the following commands and view the outputs.`
+*Commands*
+`Run the following commands and view the outputs.`
 
-   *View Nodes*
-      `kubectl get nodes`
-   
-      `kubectl get nodes -o wide`
-   
-   *View pods*
-      `kubectl get pods -A`
-   
-      `kubectl get pods -o wide`
-   
-      `kubectl describe pod <podname> -n (namespace)`
-   
-   *View all deployment and service*
-      `kubectl get deployment -A`
-   
-      `kubectl get svc -A`
+*View Nodes*
 
-   *View all resources*
-      `kubectl get all -A`
+.. code-block:: console
+
+   $ kubectl get nodes
+   
+.. code-block:: console
+
+   $ kubectl get nodes -o wide
+
+*View pods*
+
+.. code-block:: console
+
+   $ kubectl get pods -A
+   $ kubectl get pods -o wide
+   $ kubectl describe pod <podname> -n (namespace)
+   
+*View all deployment and service*
+
+.. code-block:: console
+
+   $ kubectl get deployment -A
+   $ kubectl get svc -A
+
+*View all resources*
+
+.. code-block:: console
+
+   $ kubectl get all -A
    
