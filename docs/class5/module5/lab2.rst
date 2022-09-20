@@ -22,13 +22,33 @@ In this lab, we will learn the following:
 
    *From CLI just append with your created namespace*
 
-      *Namespace*
-         `kubectl get namespace`
-      *Deployment*
-         `kubectl get deployment -n "namespace"`
-      *Pods*
-         `kubectl get pods -n "namespace"`
-      *Service*
-         `kubectl get svc -n "namespace"`
-      *Get All resources for the Namespace you created*
-         `kubectl get all -n "namespace"`
+   *Namespace*
+
+   .. code-block:: console
+
+      $ kubectl get namespace
+
+   *Deployment*
+
+   .. code-block:: console
+
+      $ kubectl get deployment -n "namespace"
+
+   *Pods*
+
+   .. code-block:: console
+
+      $ kubectl get pods -n "namespace"
+
+   *Service*
+
+   .. code-block:: console
+
+      $ kubectl get svc -n "namespace"
+
+   *Get All resources for the Namespace you created*
+
+   .. code-block:: console
+
+      $ kubectl get all -n "namespace"
+
