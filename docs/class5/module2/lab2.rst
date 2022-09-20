@@ -8,7 +8,7 @@ In this lab, we will learn the following:
 •  Modify Virtual K8s Deployment to Scale Replicas
 
 Core concepts
-------------
+-------------
 
    *Pods in vK8s*
       `The core concept in application management on Kubernetes is a Pod. Pod is the basic and smallest execution unit that can be created, deployed, and managed in Kubernetes. A Pod consumes compute, memory, and storage resources and needs a network identity. A Pod contains single or multiple containers but it is a single instance of an application in Kubernetes.`
