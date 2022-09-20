@@ -18,45 +18,67 @@ Core concepts
 
    For more core concepts, please review `F5 Distributed Cloud documentation <https://docs.cloud.f5.com/docs/ves-concepts/dist-app-mgmt>`_
 
-**Commands to run via cli to Access Virtual K8s**
 
-   *Commands*
-      `Run the following commands and view the outputs.  Why are there different outputs before and after increasing the replicas?`
+kubectl commands
+----------------
 
-   *View Nodes*
-      `kubectl get nodes`
-   
-      `kubectl get nodes -o wide`
-   
-   *View pods*
-      `kubectl get pods`
-   
-      `kubectl get pods -o wide`
-   
-      `kubectl describe pod <podname>`
-   
-   *View deployment and service*
-      `kubectl get deployment agility`
-   
-      `kubectl get svc agility`
+Run the following commands and view the outputs.  Why are there different outputs before and after increasing the replicas?
 
-   *View all resources in your namespace*
-      `kubectl get all`
+*View Nodes*
+
+.. code-block:: console
+
+   $ kubectl get nodes
+   $ kubectl get nodes -o wide
    
-   *View output of the pod in yaml format*
-      `kubectl get pods <podname> -o yaml`
+*View pods*
+
+.. code-block:: console
  
-   *View output of the deployment in yaml format*
-      `kubectl get deployment agility -o yaml`
-
-   *View output of the service in yaml format*
-      `kubectl get svc agility -o yaml`
+   $ kubectl get pods
+   $ kubectl get pods -o wide
+   $ kubectl describe pod <podname>
    
-   *Save the output of the deployment in yaml format*
-      `kubectl get deployment -o yaml > agility.yaml`
+*View deployment and service*
 
-   *View the saved yaml deployment*
-      `find the file in the current directory:
-      ls -larth`
+.. code-block:: console
+
+   $ kubectl get deployment agility
+   $ kubectl get svc agility
+
+*View all resources in your namespace*
+
+.. code-block:: console
+
+   $ kubectl get all
+
+*View output of the pod in yaml format*
+
+.. code-block:: console
+
+   $ kubectl get pods <podname> -o yaml
+ 
+*View output of the deployment in yaml format*
+
+.. code-block:: console
+
+   $ kubectl get deployment agility -o yaml
+
+*View output of the service in yaml format*
+
+.. code-block:: console
+
+   $ kubectl get svc agility -o yaml
    
-      `view the file: cat agility.yaml`
+*Save the output of the deployment in yaml format*
+
+.. code-block:: console
+
+   $ kubectl get deployment -o yaml > agility.yaml
+
+*View the saved yaml deployment*
+
+.. code-block:: console
+
+    $ cat agility.yaml
+
