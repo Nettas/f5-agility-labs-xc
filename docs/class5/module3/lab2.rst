@@ -42,7 +42,7 @@ In the example below it is *flying-ox.lab-app.f5demos.com*
 
 Success will render a page like the following:
 
-.. image:: ../images/m-http-status.png`
+.. image:: ../images/m-http-status.png
 
 Please note the country name. 
 
