@@ -11,7 +11,7 @@ Log into F5 Distributed Cloud Console
 #. Click the Cloud and Edge Sites tile on the F5 Distributed Cloud Services home page.
 
    .. image:: ../images/xchomepage.png
-      :width: 400pt
+      :width: 800px
 
 #. Click Overview under Managed K8s on the left hand pane.
 
@@ -21,7 +21,7 @@ Log into F5 Distributed Cloud Console
 #. Pick a Site and click the three dots under the "Action" column and then Download Global Kubeconfig.
 
    .. image:: ../images/globalkubeconfig.png
-      :width: 400pt
+      :width: 800px
 
 #. Locate your downloaded kubeconfig file, and follow the Kubernetes documentation to configure your local kubectl tool. 
 
@@ -35,22 +35,22 @@ Viewing the K8s Cluster in UI and CLI
 #. In XC Console Click on the Managed K8s Site you are working in, and view the following in the UI Dashboard, Nodes, Namespaces, Deployments, Services, and Pods
 
    .. image:: ../images/dasboard.png
-      :width: 600pt
+      :width: 800px
 
    .. image:: ../images/nodes.png
-      :width: 600pt
+      :width: 800px
 
    .. image:: ../images/namespaces.png
-      :width: 600pt
+      :width: 800px
 
    .. image:: ../images/deployments.png
-      :width: 600pt
+      :width: 800px
 
    .. image:: ../images/services.png
-      :width: 600pt
+      :width: 800px
    
    .. image:: ../images/pods.png
-      :width: 600pt
+      :width: 800px
 
 CLI Commands to view Managed K8s Outputs
 ----------------------------------------
