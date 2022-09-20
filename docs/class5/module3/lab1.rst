@@ -3,7 +3,7 @@ Lab 1 - Create Origin Pool
 
 #. Navigate the left-side menu to ``Manage`` > ``Load Balancers``, then click ``Origin Pools``.
 
-   .. image:: ../images/m-origin-pool.pngA
+   .. image:: ../images/m-origin-pool.png
       :width: 800px
    
 #. Click the **Add Origin Pool** button.
@@ -30,13 +30,13 @@ Lab 1 - Create Origin Pool
    .. image:: ../images/m3-add-origin-server.png
       :width: 800px
  
-#. Click the |save-and-exit| button to close the **Origin Pool** dialogue.
+#. Click |save-and-exit| near the **Origin Pool** dialogue.
 
-.. |save-and-exit| image:: images/save-and-exit.png
+.. |save-and-exit| image:: ../images/save-and-exit.png
    :height: 24px
 
-.. |add-item| image:: images/add-item.png
+.. |add-item| image:: ../images/add-item.png
    :height: 24px
 
-.. |apply| image:: images/apply.png
+.. |apply| image:: ../images/apply.png
    :height: 24px
