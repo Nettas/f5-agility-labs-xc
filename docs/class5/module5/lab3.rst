@@ -1,8 +1,6 @@
 Lab 3 - Create Origin Pool
 ==========================
 
-**Exercise 1: Create Origin Pool**
-
 #. Navigate the left-side menu to ``Manage`` > ``Load Balancers``, then click ``Origin Pools``.
 
    .. image:: ../images/m-origin-pool.png
@@ -22,7 +20,7 @@ Lab 3 - Create Origin Pool
    .. image:: ../images/m-origin-pool-name.png
       :width: 800px
 
-#. Complete the **Origin Server** section by make the following changes:
+#. Complete the **Origin Server** section by make the following changes, and click |add-item| and |save-and-exit| to close the **Origin Pool** dialogue.
 
    * **Select Type of Origin Server**: K8s Service Name of Origin Server on given Sites
    * **Service Name**: workloadname.namespace (make a note to remember this in creation stage)
@@ -32,7 +30,11 @@ Lab 3 - Create Origin Pool
    .. image:: ../images/origin-pool.png
       :width: 800px
  
-#. Click on **Add Item** to return to the previous screen
+.. |save-and-exit| image:: ../images/save-and-exit.png
+   :height: 24px
 
-#. Click the **Save and Exit** button to close the **Origin Pool** dialogue.
+.. |add-item| image:: ../images/add-item.png
+   :height: 24px
 
+.. |apply| image:: ../images/apply.png
+   :height: 24px

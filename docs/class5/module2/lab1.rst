@@ -101,11 +101,11 @@ Configure vK8s Workload Advertisement Options
    .. image:: ../images/12verify_3_workload_sites_pods.png
       :width: 800px
 
-.. |add-item| image:: images/add-item.png
+.. |add-item| image:: ../images/add-item.png
    :height: 24px
 
-.. |apply| image:: images/apply.png
+.. |apply| image:: ../images/apply.png
    :height: 24px
 
-.. |save-and-exit| image:: images/save-and-exit.png
+.. |save-and-exit| image:: ../images/save-and-exit.png
    :height: 24px
